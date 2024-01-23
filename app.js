@@ -55,7 +55,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblocker = new Unblocker({
-    prefix: '/proxy/',
+    prefix: '/client/',
     requestMiddleware: [
         youtube.processRequest
     ],
