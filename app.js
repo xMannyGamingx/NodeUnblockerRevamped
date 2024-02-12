@@ -10,25 +10,6 @@
  * Released under the terms of the Affero GPL v3
  */
 
-import { Analytics } from '@vercel/analytics/react';
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
 
 var url = require('url');
 var querystring = require('querystring');
